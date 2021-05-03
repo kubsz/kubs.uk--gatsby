@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import squat from '../assets/images/squat.jpg';
+import squat from '../assets/images/me2.jpg';
 
 import personal from '../data/personal';
 import config from '../../config';
