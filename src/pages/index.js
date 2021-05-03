@@ -22,7 +22,6 @@ const IndexPage = () => {
           <p>{config.subHeading}</p>
         </div>
       </section>
-
       <section id="wrapper">
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
