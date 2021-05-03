@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import squat from '../assets/images/me2.jpg';
+import kubs from './../assets/images/kubs.jpg';
 
 import personal from '../data/personal';
 import config from '../../config';
@@ -26,7 +26,7 @@ const IndexPage = () => {
         <section id="one" className="wrapper spotlight style1">
           <div className="inner">
             <a className="image">
-              <img src={squat} alt="Kubs K headshot" />
+              <img src={kubs} alt="Kubs K headshot" />
             </a>
             <div className="content">
               <h2 className="major">A little bit about me</h2>
