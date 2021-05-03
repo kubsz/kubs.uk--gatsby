@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 
 import personal from '../data/personal';
 import dantoo from '../data/dantoo';
+import WebsiteCard from '../components/WebsiteCard';
 
 const IndexPage = () => {
   return (
@@ -26,20 +27,12 @@ const IndexPage = () => {
             </p>
             <section className="features">
               {personal.map(cur => (
-                <article>
-                  <a target="_blank" href={cur.url} className="image">
-                    <img src={cur.image} alt="HytaleGuide - Community Wiki" />
-                  </a>
-                  <h3 className="major">{cur.name}</h3>
-                  <p>{cur.description}</p>
-                  <a
-                    target="_blank"
-                    href="https://hytaleguide.net"
-                    className="special"
-                  >
-                    View more
-                  </a>
-                </article>
+                <WebsiteCard
+                  name={cur.name}
+                  url={cur.url}
+                  image={cur.image}
+                  description={cur.description}
+                />
               ))}
             </section>
           </div>
@@ -52,20 +45,12 @@ const IndexPage = () => {
             </p>
             <section className="features">
               {dantoo.map(cur => (
-                <article>
-                  <a target="_blank" href={cur.url} className="image">
-                    <img src={cur.image} alt="HytaleGuide - Community Wiki" />
-                  </a>
-                  <h3 className="major">{cur.name}</h3>
-                  <p>{cur.description}</p>
-                  <a
-                    target="_blank"
-                    href="https://hytaleguide.net"
-                    className="special"
-                  >
-                    View more
-                  </a>
-                </article>
+                <WebsiteCard
+                  name={cur.name}
+                  url={cur.url}
+                  image={cur.image}
+                  description={cur.description}
+                />
               ))}
             </section>
           </div>

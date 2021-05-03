@@ -29,18 +29,18 @@ let websites = [
       'BronwenJ is a lightweight personal portfolio and blog for an client, studying journalism & writing.',
   },
   {
-    name: 'Debo',
-    url: 'https://debo.kubs.uk/',
-    image: debo,
-    description:
-      'DEBO is an advanced social media platform created as a part of my CS degree.',
-  },
-  {
     name: 'RustWeaponStats',
     url: 'https://rustweaponstats.com',
     image: rustweaponstats,
     description:
       'RustWeaponStats is a site detailing weapon/item stats in the video game Rust.',
+  },
+  {
+    name: 'Debo',
+    url: 'https://debo.kubs.uk/',
+    image: debo,
+    description:
+      'DEBO is an advanced social media platform created as a part of my CS degree.',
   },
 ];
 

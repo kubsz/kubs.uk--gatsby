@@ -6,6 +6,7 @@ import squat from '../assets/images/squat.jpg';
 
 import personal from '../data/personal';
 import config from '../../config';
+import WebsiteCard from '../components/WebsiteCard';
 
 const IndexPage = () => {
   let sites = personal.filter(el => el.showOnIndex == true);
@@ -55,20 +56,12 @@ const IndexPage = () => {
             </p>
             <section className="features">
               {sites.map(cur => (
-                <article>
-                  <a target="_blank" href={cur.url} className="image">
-                    <img src={cur.image} alt="HytaleGuide - Community Wiki" />
-                  </a>
-                  <h3 className="major">{cur.name}</h3>
-                  <p>{cur.description}</p>
-                  <a
-                    target="_blank"
-                    href="https://hytaleguide.net"
-                    className="special"
-                  >
-                    View more
-                  </a>
-                </article>
+                <WebsiteCard
+                  name={cur.name}
+                  url={cur.url}
+                  image={cur.image}
+                  description={cur.description}
+                />
               ))}
             </section>
             <ul className="actions">

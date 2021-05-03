@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/k-logo.png',
-  heading: 'Hi, I\'m Kubs',
+  heading: "Hi, I'm Kubs",
   subHeading: 'Web Developer, UI/UX Designer, and Problem Solver.',
   // social
   socialLinks: [
