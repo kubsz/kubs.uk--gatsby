@@ -12,7 +12,7 @@ const IndexPage = () => <Layout fullMenu>
 <section id="wrapper">
 		<header>
 			<div className="inner">
-				<h2>Elements</h2>
+				<h2>My Work</h2>
 				<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
 			</div>
 		</header>

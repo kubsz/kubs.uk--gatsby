@@ -1,38 +1,37 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter SolidState', // <title>
-  manifestName: 'SolidState',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'Kubs K | Full Stack Web Developer', // <title>
+  manifestName: 'Kubs K - Portfolio',
+  manifestShortName: 'Kubs K - Portfolio', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  manifestIcon: 'src/assets/img/k-logo.png',
+  heading: 'Hi, I\'m Kubs',
+  subHeading: 'Web Developer, UI/UX Designer, and Problem Solver.',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/kubsz',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/Kubs9989',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      icon: 'fa-linkedin',
+      name: 'Linked In',
+      url: 'https://www.linkedin.com/in/kubs-korkmaz-281373199/',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:me@kubs.uk',
     },
   ],
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  phone: '07395310210',
+  address: 'Milton Keynes, United Kingdom',
 };
