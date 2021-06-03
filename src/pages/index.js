@@ -9,8 +9,7 @@ import config from '../../config';
 import WebsiteCard from '../components/WebsiteCard';
 
 const IndexPage = () => {
-  let sites = personal.filter(el => el.showOnIndex == true);
-  console.log(personal);
+  let sites = personal.filter(el => el.showOnIndex === true);
   return (
     <Layout>
       <section id="banner">
