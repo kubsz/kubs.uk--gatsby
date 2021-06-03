@@ -11,6 +11,7 @@ let websites = [
     image: robloxden,
     description:
       'Developed the front-end of RobloxDen, an informative website detailing information about Roblox.',
+    showOnIndex: true,
   },
   {
     name: 'Dantoo Corporate Site',
@@ -18,6 +19,7 @@ let websites = [
     image: dantoo,
     description:
       'A company website for Dantoo LTD, outlining the websites ran with a contact section.',
+    showOnIndex: true,
   },
   {
     name: 'TotalCSGO Binds Generator',

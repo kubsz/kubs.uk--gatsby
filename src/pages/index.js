@@ -5,11 +5,15 @@ import Layout from '../components/Layout';
 import kubs from './../assets/images/kubs.jpg';
 
 import personal from '../data/personal';
+import dantoo from '../data/dantoo';
 import config from '../../config';
 import WebsiteCard from '../components/WebsiteCard';
 
 const IndexPage = () => {
-  let sites = personal.filter(el => el.showOnIndex === true);
+  const sites = [
+    ...personal.filter(el => el.showOnIndex === true),
+    ...dantoo.filter(el => el.showOnIndex === true),
+  ];
   return (
     <Layout>
       <section id="banner">
@@ -48,8 +52,8 @@ const IndexPage = () => {
           <div className="inner">
             <h2 className="major">My Work</h2>
             <p>
-              Below you can find my favorite pieces of that I have created over
-              the years. I have no doubt this list will expand and improve over
+              Below you can find my favorite work that I have created over the
+              years. I have no doubt this list will expand and improve over
               time, and I am excited to see the projects I have ahead of me.
             </p>
             <section className="features">
